@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Environment;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -46,6 +47,9 @@ public class MainActivity extends Activity implements View.OnClickListener{
         switch (radioId){
             case R.id.bitmap_player_radio:
                 intent = new Intent(this,BitmapPlayerActivity.class);
+                break;
+            case R.id.open_gl_player_radio:
+                intent = new Intent(this,OpenGLPlayerActivity.class);
                 break;
             default:
                 throw new UnsupportedOperationException("radioId= "+radioId);

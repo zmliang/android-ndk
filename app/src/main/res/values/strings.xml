@@ -6,6 +6,8 @@
 
     <string name="main_activity_title">MainActivity</string>
     <string name="bitmap_player_radio">BitmapPlayer</string>
+    <string name="open_gl_player_radio">OpenGLPlayer</string>
+    <string name="native"
     <string name="file_name_hint">AVI Video File Name</string>
     <string name="file_name_text">galleon.avi</string>
     <string name="play_button">Play</string>
